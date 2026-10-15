@@ -1,0 +1,18 @@
+# 密钥与登录态（切勿提交）
+.env
+.env.*
+*.cookie
+*cookies*
+*storage-state*
+auth.json
+
+# 本地过程文件
+.playwright-cli/
+*.log
+tmp/
+.tmp/
+
+# 若截图含真实客户/单号，默认不提交；确认脱敏后可 force-add
+# screenshots/
+
+node_modules/

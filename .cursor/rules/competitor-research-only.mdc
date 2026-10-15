@@ -1,0 +1,12 @@
+---
+description: 本仓库仅竞品 Web 走查与业务拆解，与 sample-wms/QWMS 隔离
+alwaysApply: true
+---
+
+# 竞品拆解专用
+
+- **禁止**读取、引用、搜索 `sample-wms`、`QWMS-Coding`、内网 GWMS、公司 PRD 库。
+- **禁止**把竞品观察写成自家产品现网口径。
+- **优先** Playwright / 浏览器走查；**不要**默认启用 REA 全量 MCP。
+- 产出只写入本仓库 `notes/`、`screenshots/`（脱敏），格式见 `docs/TEMPLATE-竞品拆解.md`。
+- 密码、Cookie、`.env` 不得写入 Git 或 Markdown。
